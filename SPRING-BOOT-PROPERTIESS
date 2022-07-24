@@ -8,6 +8,8 @@ This class should have the Main method to run the Application.
 
 @SpringBootApplication contains @EnableAutoConfiguration, @ComponentScan, @SpringBootConfiguration annotation.
 
+package com.springboot.learning 
+
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 @SpringBootApplication
@@ -21,5 +23,14 @@ public class DemoApplication{
 2)SpringBoot Quick-start:------------------------
 
 prerequisites are java 7 and maven 3.2
+1)Spring Boot CLI (Command Line Interface) : this needs groovy file to run the Application :: spring run hello.groovy
+2)Spring Boot-BootStraping : http://start.spring.io
+
+Create an Executable Jar: 
+command:  mvn clean install
+it creates a jar file in the Target folder, 
+run the jar file using
+cmd : java -jar jarname
+
 
 
