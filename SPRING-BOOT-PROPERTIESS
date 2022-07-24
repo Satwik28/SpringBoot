@@ -1,0 +1,25 @@
+Spring Boot Application:
+-------------------------
+
+1) SpringBoot Auto Configuration :----------------
+
+The entry point for Spring Boot Application is the class contains @SpringBootApplication annotation.
+This class should have the Main method to run the Application.
+
+@SpringBootApplication contains @EnableAutoConfiguration, @ComponentScan, @SpringBootConfiguration annotation.
+
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
+@SpringBootApplication
+public class DemoApplication{
+  public static void main(String[] args){
+    SpringApplication.run(DemoApplication.class, args);
+    }
+   }
+   
+   
+2)SpringBoot Quick-start:------------------------
+
+prerequisites are java 7 and maven 3.2
+
+
